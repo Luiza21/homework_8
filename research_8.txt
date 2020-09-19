@@ -1,0 +1,9 @@
+git fetch --all: Fetch all remotes.
+git log filtering: we can filter by cuantity git log -4, 
+by date git log --after="13-06-2019" or git log --before="13-06-2019" or "1 week ago" ..., 
+by user git log --author="Vazgen", 
+by message git log --grep="aaa",
+by file git log -- text.txt,
+by content git log -S"code line"
+by range git log branch1.. branch2
+by merged and not merged commits git log --no-merges git log --merges
